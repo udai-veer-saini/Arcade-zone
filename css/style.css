@@ -1,0 +1,616 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+span{
+    color: #ff5488;
+}
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1{
+    width: 90%;
+}
+.box1 .name{
+    height: 17vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+.box1 .name img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.box1 .name h3{
+    font-size: 3rem;
+    color: white;
+}
+
+.box2{
+    width: 90%;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border-radius: 30px;
+}
+.vid-sec{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.box2 video{
+    max-width: 95%;
+    height: 40%;
+    border-radius: 30px;
+}
+.vid-sec .text h2{
+    color: white;
+    line-height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    font-size: 2.4rem;
+    text-align: left;
+    width: 22%;
+}
+
+.vid-sec .text h3{
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    font-size: 2rem;
+    text-align: left;
+    width: 20%;
+}
+
+.vid-sec .text a{
+    color: #ffffff;
+    background-color: #ff5488;
+    position: absolute;
+    top: 95%;
+    left: 15%;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 12%;
+    text-decoration: none;
+    border-radius: 35px;
+}
+.text h4{
+    margin: 17px;
+}
+.box3{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(46, 46, 46);
+    border-radius: 30px;
+    width: 91.5%;
+    margin: 40px;
+}
+.box3 .textbox{
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.cards-box{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #35abff5b;
+    margin: 10px;
+    background-image: url("https://w0.peakpx.com/wallpaper/128/237/HD-wallpaper-tic-tac-toe-game-blue-background-ultra-games-other-games-color-game-design-blue-tictactoe-chalkboard-chalk-diagonal-row-winner-solved-grid-xsandos-noughtsandcrosses-blackboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card2{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #d5ff3d61;
+    margin: 10px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/047/553/018/small/sport-racing-car-fast-driving-to-achieve-the-champion-dream-motion-blur-and-lighting-effect-photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card3{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #ff38385e;
+    margin: 10px;
+    background-image: url("https://damisanthrope.wordpress.com/wp-content/uploads/2017/04/snake-pass-key-art-no-logo.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card4{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #ee34ff67;
+    margin: 10px;
+    background-image: url("https://play-lh.googleusercontent.com/teLTp4DS2uq72rcxhN43H4UpSQWHZAiEVNAfnPlnZQU6hcLUVD0ptXfQZhUCxmdiPPnd");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card5{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #40ff7366;
+    margin: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRweeT-X745bUp3S7DtseahT4EaAqbewZmN4A&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card6{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #ff383863;
+    margin: 10px;
+    background-image: url("https://i.ytimg.com/vi/a3pTw0jmxlg/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card7{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #ff34f55f;
+    margin: 10px;
+    background-image: url("https://play-lh.googleusercontent.com/dduKP6iLT2i0qyUbXFoL6o7v7_IyvPnI5poTvDsWmDtStTEUJXj29CSQFX8C5OBS83ut=w600-h300-pc0xffffff-pd");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card8{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #33ffa062;
+    margin: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBu0hDcg8dhJEhb_bh6Dbftfywcw0hT4AIixoRkkAFk3vGupN6xoWEDkByNhnuPB5ioxg&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card9{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #5b36ff62;
+    margin: 10px;
+    background-image: url("https://rocketgames.imgix.net/uploads/games/g/google-block-breaker/google-block-breaker.6baa8a.jpg?auto=format,compress,enhance&w=314&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card10{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #6eff356b;
+    margin: 10px;
+    background-image: url("https://image.winudf.com/v2/image/Y29tLmNsYXNzaWMuYm91bmNlX2ljb25fOHN5MWp4c2k/icon.png?w=280&fakeurl=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card11{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #ff373766;
+    margin: 10px;
+    background-image: url("https://thumbs.dreamstime.com/b/ancient-stone-temple-game-background-nighttime-scene-pixel-art-style-image-depicts-features-central-doorway-354226977.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.card12{
+    position: relative;
+    height: 340px;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #86fc3861;
+    margin: 10px;
+    background-image: url("https://play-lh.googleusercontent.com/AblDc2uCsev9ez_oSblK1yxhxVFF45yirbPmvsrxvDkSepvJBx1CS85BQO-8JUMoQYk");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.gradient{
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #00000085;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 25px;
+    text-shadow: 0px 0px 1px rgb(255, 255, 164);
+}
+.title p{
+    font-size: 0.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-top: 15px;
+}
+.play-btn{
+    background-color: #ff5488;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
+}
+.play-btn a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.play-btn h4{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: wheat;
+}
+
+@media (max-width:500px){
+.box1 .name h3{
+    font-size: 1.5rem;
+}
+.box1 .name{
+    height: 10vh;
+}
+.box1 .name img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.vid-sec .text h2{
+    line-height: 20px;
+    top: 23%;
+    left: 15%;
+    font-size: 0.8rem;
+    width: 20%;
+}
+.vid-sec .text h3{
+    top: 32%;
+    left: 15%;
+    font-size: 0.8rem;
+    width: 20%;
+}
+.vid-sec .text a{
+    top: 40%;
+    left: 17%;
+    font-size: 0.6rem;
+    width: 13%;
+    border-radius: 35px;
+}
+.text h4{
+    margin: 7px;
+}
+.box3 .textbox{
+    letter-spacing: 0px;
+    margin: 30px;
+    font-size: 1.5rem;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12{
+    height: 200px;
+    width: 70%;
+    border-radius: 10px;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin: 3px;
+}
+.title p{
+    font-size: 0.5rem;
+    margin-top: 5px;
+    margin: 15px;
+    line-height: 10px;
+}
+.play-btn{
+    margin: 0px 16px 0px 16px;
+    border-radius: 20px;
+}
+.play-btn a{
+    font-size: 0.8rem;
+}
+.play-btn h4{
+    padding: 2px;
+}
+footer{
+    font-size: 0.8rem;
+}
+
+}
+@media (min-width:501px) and (max-width:768px){
+    .box1 .name h3{
+    font-size: 2rem;
+}
+    .box1 .name img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.vid-sec .text h2{
+    line-height: 20px;
+    top: 31%;
+    left: 15%;
+    font-size: 1.1rem;
+    width: 20%;
+}
+.vid-sec .text h3{
+    top: 40%;
+    left: 15%;
+    font-size: 1.1rem;
+    width: 20%;
+}
+.vid-sec .text a{
+    top: 50%;
+    left: 15%;
+    font-size: 0.8rem;
+    width: 13%;
+    border-radius: 35px;
+}
+.text h4{
+    margin: 7px;
+}
+.box3 .textbox{
+    letter-spacing: 0px;
+    margin: 30px;
+    font-size: 1.2rem;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12{
+    height: 150px;
+    width: 40%;
+    border-radius: 10px;
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 2px;
+}
+.title p{
+    font-size: 0.4rem;
+    margin: 10px;
+    line-height: 10px;
+}
+.play-btn{
+    margin: 0px 16px 0px 16px;
+    border-radius: 20px;
+}
+.play-btn a{
+    font-size: 0.7rem;
+}
+.play-btn h4{
+    padding: 2px;
+}
+
+}
+@media (min-width:769px) and (max-width:992px){
+    .box1 .name h3{
+    font-size: 2rem;
+}
+    .box1 .name img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.vid-sec .text h2{
+    line-height: 23px;
+    top: 31%;
+    left: 15%;
+    font-size: 1.4rem;
+    width: 20%;
+}
+.vid-sec .text h3{
+    top: 45%;
+    left: 15%;
+    font-size: 1.4rem;
+    width: 20%;
+}
+.vid-sec .text a{
+    top: 60%;
+    left: 15%;
+    font-size: 0.8rem;
+    width: 13%;
+    border-radius: 35px;
+}
+.text h4{
+    margin: 9px;
+}
+.box3 .textbox{
+    letter-spacing: 0px;
+    margin: 30px;
+    font-size: 1.8rem;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12{
+    height: 230px;
+    width: 26%;
+    border-radius: 10px;
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    margin: 5px;
+}
+.title p{
+    font-size: 0.7rem;
+    margin: 9px;
+    line-height: 13px;
+}
+.play-btn{
+    margin: 0px 16px 0px 16px;
+    border-radius: 20px;
+}
+.play-btn a{
+    font-size: 0.8rem;
+}
+.play-btn h4{
+    padding: 6px;
+}
+
+}
+@media (min-width:992px) and (max-width:1199px){
+    .box1 .name h3{
+    font-size: 3rem;
+}
+    .box1 .name img{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+.vid-sec .text h2{
+    line-height: 30px;
+    top: 35%;
+    left: 15%;
+    font-size: 1.8rem;
+    width: 20%;
+}
+.vid-sec .text h3{
+    top: 50%;
+    left: 15%;
+    font-size: 1.8rem;
+    width: 20%;
+}
+.vid-sec .text a{
+    top: 70%;
+    left: 15%;
+    font-size: 1rem;
+    width: 13%;
+    border-radius: 35px;
+}
+.text h4{
+    margin: 9px;
+}
+.box3 .textbox{
+    letter-spacing: 1px;
+    margin: 40px;
+    font-size: 2rem;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12{
+    height: 300px;
+    width: 21%;
+    border-radius: 10px;
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 5px;
+}
+.title p{
+    font-size: 0.8rem;
+    margin: 15px;
+    line-height: 15px;
+}
+.play-btn{
+    margin: 0px 16px 0px 16px;
+    border-radius: 20px;
+}
+.play-btn a{
+    font-size: 0.9rem;
+}
+.play-btn h4{
+    padding: 6px;
+}
+
+}
